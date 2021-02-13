@@ -15,14 +15,14 @@ $protocol = 'http://';
 if (isset($_SERVER['HTTPS'])) {
 	$protocol = 'https://';
 }
-
+// http://framework-lessons/public/index.php
 $app_path = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 
-// $name_script = end(explode('/', $app_path));
-// $app_path = str_replace($name_script, '', $app_path);
+// http://framework-lessons/public/
+$app_path = preg_replace("#[^/]+$#", '', $app_path);
 
-$app_path = $protocol . $_SERVER['HTTP_HOST'];
-
+// url home page
+$app_path = str_replace('/public/', '', $app_path);
 define("PATH", $app_path);
 define("ADMIN", PATH . '/admin');
 
