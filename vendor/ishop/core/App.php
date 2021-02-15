@@ -15,12 +15,14 @@ class App
 		self::$app = Registry::Instance();
 		$this->getParams();
 		new ErrorHandler();
+		Router::dispatch($query);
 	}
 
-	protected function getParams(){
+	protected function getParams()
+	{
 		$params = require_once CONFIG . '/params.php';
-		if(!empty($params)){
-			foreach ($params as $key => $value){
+		if (!empty($params)) {
+			foreach ($params as $key => $value) {
 				self::$app->setProperty($key, $value);
 			}
 		}
