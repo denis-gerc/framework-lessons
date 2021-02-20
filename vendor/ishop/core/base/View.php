@@ -27,6 +27,8 @@ class View
 		} else {
 			$this->layout = $layout ?: LAYOUT;
 		}
+
+		echo $this->getMeta();
 	}
 
 	public function render($data)
@@ -53,5 +55,14 @@ class View
 
 	public function getMeta()
 	{
+		$head = '<head>';
+		$head .= '<meta charset="UTF-8">';
+		$head .= '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
+		$head .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+		$head .= "<meta name=\"keywords\" content=\"{$this->meta['keywords']}\" />";
+		$head .= "<meta name=\"description\" content=\"{$this->meta['desc']}\" />";
+		$head .= "<title>{$this->meta['title']}</title>";
+		$head .= '</head>';
+		return $head;
 	}
 }

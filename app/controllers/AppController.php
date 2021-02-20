@@ -6,4 +6,5 @@ use ishop\base\Controller;
 
 class AppController extends Controller
 {
+
 }
