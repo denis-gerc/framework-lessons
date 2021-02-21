@@ -32,6 +32,7 @@ class View
 
 	public function render($data)
 	{
+		if(is_array($data)) extract($data);
 		$viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
 
 		if (is_file($viewFile)) {
@@ -54,14 +55,9 @@ class View
 
 	public function getMeta()
 	{
-		$head = '<head>' . PHP_EOL;
-		$head .= '<meta charset="UTF-8">'. PHP_EOL;
-		$head .= '<meta http-equiv="X-UA-Compatible" content="IE=edge">'. PHP_EOL;
-		$head .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">'. PHP_EOL;
-		$head .= "<meta name=\"keywords\" content=\"{$this->meta['keywords']}\" />". PHP_EOL;
-		$head .= "<meta name=\"description\" content=\"{$this->meta['desc']}\" />". PHP_EOL;
-		$head .= "<title>{$this->meta['title']}</title>". PHP_EOL;
-		$head .= '</head>'. PHP_EOL;
+		$head = '<title>' . $this->meta['title'] . '</title>' . PHP_EOL;
+		$head .= '<meta name="keywords" content= "' . $this->meta['keywords'] . '">' . PHP_EOL;
+		$head .= '<meta name="description" content= "' . $this->meta['desc'] . '">' . PHP_EOL;
 		return $head;
 	}
 }

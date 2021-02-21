@@ -11,7 +11,7 @@ abstract class Controller
 	public $layout;
 	public $prefix;
 	public $data = [];
-	public $meta = [];
+	public $meta = ['title' => '', 'desc' => '', 'keywords' => ''];
 
 	public function __construct($route)
 	{
