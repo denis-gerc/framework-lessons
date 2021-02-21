@@ -28,7 +28,6 @@ class View
 			$this->layout = $layout ?: LAYOUT;
 		}
 
-		echo $this->getMeta();
 	}
 
 	public function render($data)
@@ -55,14 +54,14 @@ class View
 
 	public function getMeta()
 	{
-		$head = '<head>';
-		$head .= '<meta charset="UTF-8">';
-		$head .= '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
-		$head .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-		$head .= "<meta name=\"keywords\" content=\"{$this->meta['keywords']}\" />";
-		$head .= "<meta name=\"description\" content=\"{$this->meta['desc']}\" />";
-		$head .= "<title>{$this->meta['title']}</title>";
-		$head .= '</head>';
+		$head = '<head>' . PHP_EOL;
+		$head .= '<meta charset="UTF-8">'. PHP_EOL;
+		$head .= '<meta http-equiv="X-UA-Compatible" content="IE=edge">'. PHP_EOL;
+		$head .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">'. PHP_EOL;
+		$head .= "<meta name=\"keywords\" content=\"{$this->meta['keywords']}\" />". PHP_EOL;
+		$head .= "<meta name=\"description\" content=\"{$this->meta['desc']}\" />". PHP_EOL;
+		$head .= "<title>{$this->meta['title']}</title>". PHP_EOL;
+		$head .= '</head>'. PHP_EOL;
 		return $head;
 	}
 }
