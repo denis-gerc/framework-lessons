@@ -1,11 +1,11 @@
 {
-	"autoload": {
-		"psr-4": {
-			"ishop\\": "vendor/ishop/core",
-			"app\\": "app"
-		}
-	},
-	"require": {
-      
+  "autoload": {
+    "psr-4": {
+      "ishop\\": "vendor/ishop/core",
+      "app\\": "app"
     }
+  },
+  "require": {
+    "gabordemooij/redbean": "^5.6.2"
+  }
 }
