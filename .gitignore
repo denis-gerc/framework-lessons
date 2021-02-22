@@ -4,10 +4,9 @@
 /vendor/*
 !vendor/autoload.php
 !vendor/ishop
-uploads/*
-!uploads/.gitkeep
 Thumbs.db
-*.txt
-*.log
-
+/tmp/cache/*.txt
+/tmp/*.log
+config_db.php
+composer.lock
 
