@@ -1,11 +1,11 @@
-.DS_Store
-.idea
-*.ai
-*.log
-*.psd
-*.sublime*
-Thumbs.db
+.*
+!.htaccess
+!.gitignore
+/vendor/*
+!vendor/autoload.php
+!vendor/ishop
 uploads/*
 !uploads/.gitkeep
-.vscode/
+Thumbs.db
+
 
