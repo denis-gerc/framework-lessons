@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use ishop\Cache;
+
 class MainController extends AppController
 {
 
@@ -17,7 +19,20 @@ class MainController extends AppController
 //		Вариант-2
 		$name = 'DenisGerc';
 		$age = 40;
-		$names = ['Victor', 'Anrey', 'Julios'];
+		$names = ['Victor', 'Anrey', 'Mike'];
+
+		$cache = Cache::Instance();
+//		$cache->set('test', $name);
+//		$cache->delete('test');
+
+		$data = $cache->get('test');
+
+		if (!$data) {
+			$cache->set('test', $name);
+		}
+
+		debug($data);
+
 		$this->set(compact('name', 'age', 'names', 'posts'));
 	}
 
