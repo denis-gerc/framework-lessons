@@ -7,7 +7,7 @@
 uploads/*
 !uploads/.gitkeep
 Thumbs.db
-/tmp/cache/*.txt
+tmp/cache/*.txt
 errors.log
 
 
