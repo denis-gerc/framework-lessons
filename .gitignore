@@ -8,6 +8,7 @@ uploads/*
 !uploads/.gitkeep
 Thumbs.db
 tmp/cache/*.txt
+!tmp/cache
 errors.log
 
 
