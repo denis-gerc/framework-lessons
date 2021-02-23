@@ -10,4 +10,7 @@ require_once CONFIG . '/routes.php';
 
 new \ishop\App();
 
+echo __DIR__;
+echo 'Папка public';
+
 
