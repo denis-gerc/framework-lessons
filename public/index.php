@@ -10,4 +10,4 @@ require_once CONFIG . '/routes.php';
 
 new \ishop\App();
 
-// debug(\ishop\Router::getRoute());
+
