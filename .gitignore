@@ -7,6 +7,5 @@
 Thumbs.db
 /tmp/cache/*.txt
 /tmp/*.log
-config_db.php
 composer.lock
 
