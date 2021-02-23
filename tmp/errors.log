@@ -8,3 +8,13 @@
 ==============
 [2021-02-23 16:08:53] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
 ==============
+[2021-02-23 16:14:51] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-23 17:08:47] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.bran' doesn't exist | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-23 17:08:47] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-23 17:08:57] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.bran' doesn't exist | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-23 17:13:16] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.bran' doesn't exist | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
