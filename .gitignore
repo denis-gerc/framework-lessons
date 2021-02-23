@@ -5,7 +5,7 @@
 !vendor/autoload.php
 !vendor/ishop
 Thumbs.db
-/tmp/cache/*.txt
-/tmp/*.log
+tmp/cache/*.txt
+tmp/*.log
 composer.lock
 
