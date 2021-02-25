@@ -104,3 +104,131 @@
 ==============
 [2021-02-23 20:26:54] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
 ==============
+[2021-02-24 08:55:30] Текст ошибки: Нет соединения с БД | Файл: W:\domains\framework-lessons\vendor\ishop\core\Db.php | Строка: 19 
+==============
+[2021-02-24 08:55:31] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-24 09:19:28] Текст ошибки: Нет соединения с БД | Файл: W:\domains\framework-lessons\vendor\ishop\core\Db.php | Строка: 19 
+==============
+[2021-02-24 09:19:28] Текст ошибки: Нет соединения с БД | Файл: W:\domains\framework-lessons\vendor\ishop\core\Db.php | Строка: 19 
+==============
+[2021-02-24 09:19:31] Текст ошибки: Нет соединения с БД | Файл: W:\domains\framework-lessons\vendor\ishop\core\Db.php | Строка: 19 
+==============
+[2021-02-24 15:53:24] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1 | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-24 15:53:34] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1 | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-24 16:05:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1 | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-24 16:05:37] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1 | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-24 16:06:45] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1 | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-24 16:48:43] Текст ошибки: Class 'app\widgets\currency\App' not found | Файл: W:\domains\framework-lessons\app\widgets\currency\Currency.php | Строка: 20 
+==============
+[2021-02-24 16:48:49] Текст ошибки: Class 'app\widgets\currency\App' not found | Файл: W:\domains\framework-lessons\app\widgets\currency\Currency.php | Строка: 20 
+==============
+[2021-02-24 16:49:14] Текст ошибки: Class 'app\widgets\currency\App' not found | Файл: W:\domains\framework-lessons\app\widgets\currency\Currency.php | Строка: 20 
+==============
+[2021-02-24 16:53:28] Текст ошибки: Class 'vendor\App' not found | Файл: W:\domains\framework-lessons\app\widgets\currency\Currency.php | Строка: 22 
+==============
+[2021-02-24 16:53:34] Текст ошибки: Class 'vendor\App' not found | Файл: W:\domains\framework-lessons\app\widgets\currency\Currency.php | Строка: 22 
+==============
+[2021-02-24 16:53:34] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-25 10:28:55] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-25 10:34:53] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-25 11:06:16] Текст ошибки: Class 'App' not found | Файл: W:\domains\framework-lessons\app\views\layouts\watches.php | Строка: 18 
+==============
+[2021-02-25 11:07:48] Текст ошибки: Too few arguments to function ishop\Registry::getProperty(), 0 passed in W:\domains\framework-lessons\app\widgets\currency\Currency.php on line 25 and exactly 1 expected | Файл: W:\domains\framework-lessons\vendor\ishop\core\Registry.php | Строка: 17 
+==============
+[2021-02-25 11:09:23] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:10:27] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:11:20] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:11:39] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:13:08] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:13:40] Текст ошибки: Контроллер app\controllers\CurrencyController не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 41 
+==============
+[2021-02-25 11:16:33] Текст ошибки: Контроллер app\controllers\CurrencyController не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 41 
+==============
+[2021-02-25 11:18:06] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:18:23] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:36:09] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:37:48] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 36 
+==============
+[2021-02-25 11:37:58] Текст ошибки: Метод app\controllers\CurrencyController::indexAction не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2021-02-25 11:49:05] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-25 11:49:08] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 11:51:12] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:18:59] Текст ошибки: Call to undefined method ishop\Registry::getCurrencies() | Файл: W:\domains\framework-lessons\app\controllers\AppController.php | Строка: 18 
+==============
+[2021-02-25 12:24:27] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:26:01] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:26:32] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:29:20] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:30:58] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:32:01] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:32:31] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:35:30] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:36:15] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:36:33] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:37:29] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:37:39] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:38:27] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:40:14] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:40:23] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:45:53] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:45:56] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:46:08] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:46:22] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:46:53] Текст ошибки: Метод app\controllers\CurrencyController::indexAction не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2021-02-25 12:47:49] Текст ошибки: Метод app\controllers\CurrencyController::indexAction не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2021-02-25 12:47:57] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:48:37] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:49:35] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:50:11] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:53:26] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 12:57:00] Текст ошибки: Не найден W:\domains\framework-lessons/app/views/Currency/change.php | Файл: W:\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 43 
+==============
+[2021-02-25 13:36:44] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
