@@ -2,8 +2,6 @@
 
 namespace app\controllers;
 
-use ishop\Cache;
-
 class MainController extends AppController
 {
 
@@ -15,5 +13,4 @@ class MainController extends AppController
 		$this->setMeta('Главная страница', "Описание страницы", "Ключевые слова страницы");
 		$this->set(compact('brands', 'hits'));
 	}
-
 }

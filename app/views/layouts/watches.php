@@ -69,6 +69,12 @@
 			<div class="header">
 				<div class="col-md-9 header-left">
 
+					<div class="menu">
+						<?php new \app\widgets\menu\Menu([
+							'tpl' => WWW . '/menu/menu.php'
+						]); ?>
+					</div>
+
 					<!-- <div class="top-nav">
 						<ul class="memenu skyblue">
 							<li class="active"><a href="/index.html">Home</a></li>
@@ -212,7 +218,8 @@
 				</div>
 				<div class="col-md-3 header-right">
 					<div class="search-bar">
-						<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+						<input type="text" value="Search" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Search';}">
 						<input type="submit" value="">
 					</div>
 				</div>
@@ -305,12 +312,14 @@
 			<div class="footer-top">
 				<div class="col-md-6 footer-left">
 					<form>
-						<input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+						<input type="text" value="Enter Your Email" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
 						<input type="submit" value="Subscribe">
 					</form>
 				</div>
 				<div class="col-md-6 footer-right">
-					<p>© 2015 Luxury Watches. All Rights Reserved | Design by <a href="/http://w3layouts.com/" target="_blank">W3layouts</a>
+					<p>© 2015 Luxury Watches. All Rights Reserved | Design by <a href="/http://w3layouts.com/"
+							target="_blank">W3layouts</a>
 					</p>
 				</div>
 				<div class="clearfix"></div>
@@ -323,33 +332,33 @@
 	<script src="/js/simpleCart.min.js"></script>
 	<script type="text/javascript" src="/js/memenu.js"></script>
 	<script>
-		$(document).ready(function() {
-			$(".memenu").memenu();
-		});
+	$(document).ready(function() {
+		$(".memenu").memenu();
+	});
 	</script>
 	<!--dropdown-->
 	<script src="/js/jquery.easydropdown.js"></script>
 	<!--Slider-Starts-Here-->
 	<script src="/js/responsiveslides.min.js"></script>
 	<script>
-		// You can also use "$(window).load(function() {"
-		$(function() {
-			// Slideshow 4
-			$("#slider4").responsiveSlides({
-				auto: true,
-				pager: true,
-				nav: true,
-				speed: 500,
-				namespace: "callbacks",
-				before: function() {
-					$('.events').append("<li>before event fired.</li>");
-				},
-				after: function() {
-					$('.events').append("<li>after event fired.</li>");
-				}
-			});
-
+	// You can also use "$(window).load(function() {"
+	$(function() {
+		// Slideshow 4
+		$("#slider4").responsiveSlides({
+			auto: true,
+			pager: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function() {
+				$('.events').append("<li>before event fired.</li>");
+			},
+			after: function() {
+				$('.events').append("<li>after event fired.</li>");
+			}
 		});
+
+	});
 	</script>
 	<script src="/js/main.js"></script>
 	<!--End-slider-script-->

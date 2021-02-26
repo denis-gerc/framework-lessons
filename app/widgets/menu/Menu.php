@@ -3,6 +3,7 @@
 namespace app\widgets\menu;
 
 use ishop\App;
+use ishop\Cache;
 
 class Menu
 {
@@ -17,7 +18,50 @@ class Menu
 	protected $attrs = [];
 	protected $prepend = '';
 
-	public function __construct()
+	public function __construct($options = [])
+	{
+		$this->tpl = __DIR__ . '/menu_tpl/menu.php';
+		$this->getOptions($options);
+		// debug($this->table);
+		$this->run();
+	}
+
+	protected function getOptions($options)
+	{
+		foreach ($options as $key => $value) {
+			if (property_exists($this, $key)) {
+				$this->$key = $value;
+			}
+		}
+	}
+
+	protected function run()
+	{
+		$cache = Cache::instance();
+		$this->menuHtml = $cache->get($this->cacheKey);
+		if (!$this->menuHtml) {
+			$this->data = App::$app->getProperty('categories');
+			if (!$this->data) {
+				$this->data = $categories = \R::getAssoc("SELECT * FROM {$this->table}");
+			}
+		}
+		$this->output();
+	}
+
+	protected function output()
+	{
+		echo $this->menuHtml;
+	}
+
+	protected function getTree()
+	{
+	}
+
+	protected function getMenuHtml($tree, $tab = '')
+	{
+	}
+
+	protected function catToTemplate($category, $tab, $id)
 	{
 	}
 }

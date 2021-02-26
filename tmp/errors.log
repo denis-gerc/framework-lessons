@@ -232,3 +232,45 @@
 ==============
 [2021-02-25 13:36:44] Текст ошибки: Страница не найдена | Файл: W:\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
 ==============
+[2021-02-26 13:44:17] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:44:49] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:46:13] Текст ошибки: Class 'app\controllers\Cache' not found | Файл: W:\domains\framework-lessons\app\controllers\AppController.php | Строка: 26 
+==============
+[2021-02-26 13:47:16] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:51:14] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:52:43] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:53:39] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:55:34] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 13:56:26] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 14:40:22] Текст ошибки: Undefined constant 'app\controllers' | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 3 
+==============
+[2021-02-26 14:42:30] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 14:43:39] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 14:54:43] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 14:57:28] Текст ошибки: Class 'app\controllers\AppController' not found | Файл: W:\domains\framework-lessons\app\controllers\MainController.php | Строка: 7 
+==============
+[2021-02-26 14:58:03] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: W:\domains\framework-lessons\app\views\layouts\watches.php | Строка: 73 
+==============
+[2021-02-26 14:58:50] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.categories' doesn't exist | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-26 15:00:33] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.categories' doesn't exist | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-26 15:01:32] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.categories' doesn't exist | Файл: W:\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202 
+==============
+[2021-02-26 15:09:57] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: W:\domains\framework-lessons\app\views\layouts\watches.php | Строка: 73 
+==============
+[2021-02-26 15:15:14] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: W:\domains\framework-lessons\app\views\layouts\watches.php | Строка: 73 
+==============
+[2021-02-26 15:16:07] Текст ошибки: Class 'app\widgets\menu\Cache' not found | Файл: W:\domains\framework-lessons\app\widgets\menu\Menu.php | Строка: 42 
+==============
