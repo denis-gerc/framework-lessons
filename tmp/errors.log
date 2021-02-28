@@ -274,3 +274,39 @@
 ==============
 [2021-02-26 15:16:07] Текст ошибки: Class 'app\widgets\menu\Cache' not found | Файл: W:\domains\framework-lessons\app\widgets\menu\Menu.php | Строка: 42 
 ==============
+[2021-02-27 15:07:15] Текст ошибки: Нет соединения с БД | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Db.php | Строка: 19 
+==============
+[2021-02-27 15:07:15] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-27 15:07:15] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-27 20:39:40] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-27 20:47:28] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-27 21:20:06] Текст ошибки: Call to undefined function ishop\base\cutScript() | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 51 
+==============
+[2021-02-28 10:46:55] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-28 10:46:57] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-02-28 11:03:38] Текст ошибки: Call to undefined method ishop\base\View::set() | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 61 
+==============
+[2021-02-28 11:15:09] Текст ошибки: Too few arguments to function ishop\base\View::__construct(), 4 passed in D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\Controller.php on line 27 and exactly 5 expected | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 17 
+==============
+[2021-02-28 11:21:06] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' | Файл: D:\OpenServer\domains\framework-lessons\app\views\layouts\watches.php | Строка: 331 
+==============
+[2021-02-28 11:21:54] Текст ошибки: Undefined constant 'ishop\base\View' | Файл: D:\OpenServer\domains\framework-lessons\app\views\layouts\watches.php | Строка: 331 
+==============
+[2021-02-28 15:25:45] Текст ошибки: Call to undefined method ishop\base\View::set() | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 61 
+==============
+[2021-02-28 15:50:03] Текст ошибки: Too few arguments to function ishop\base\View::getScripts(), 0 passed in D:\OpenServer\domains\framework-lessons\app\views\layouts\watches.php on line 227 and exactly 1 expected | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 85 
+==============
+[2021-02-28 16:05:21] Текст ошибки: Too few arguments to function ishop\base\View::getScripts(), 1 passed in D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php on line 59 and exactly 2 expected | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 87 
+==============
+[2021-02-28 16:06:35] Текст ошибки: Too few arguments to function ishop\base\View::getScripts(), 1 passed in D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php on line 59 and exactly 2 expected | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 87 
+==============
+[2021-02-28 16:11:57] Текст ошибки: Call to undefined method ishop\base\View::getScripts() | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 59 
+==============
+[2021-02-28 16:13:09] Текст ошибки: Call to undefined method ishop\base\View::getScripts() | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 59 
+==============

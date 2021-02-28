@@ -12,6 +12,7 @@ class View
 	public $prefix = '';
 	public $data = [];
 	public $meta = [];
+	public $scripts = [];
 
 	public function __construct($route, $layout = '', $view = '', $meta)
 	{
@@ -27,12 +28,11 @@ class View
 		} else {
 			$this->layout = $layout ?: LAYOUT;
 		}
-
 	}
 
 	public function render($data)
 	{
-		if(is_array($data)) extract($data);
+		if (is_array($data)) extract($data);
 		$viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
 
 		if (is_file($viewFile)) {
@@ -45,8 +45,21 @@ class View
 
 		if (false !== $this->layout) {
 			$layoutFile = APP . "/views/layouts/{$this->layout}.php";
+
 			if (is_file($layoutFile)) {
+				ob_start();
 				require_once $layoutFile;
+				$scriptsTemplate = ob_get_clean();
+				$scripts = [];
+				$notScriptsTemplate = $this->cutScript($scriptsTemplate);
+				$scripts = $this->scripts[0];
+
+				if (!empty($this->scripts[0])) {
+					$scripts = $this->scripts[0];
+				}
+				$scripts = str_replace('</script>', '</script>' . PHP_EOL, $scripts);
+				$layoutFile = str_replace('</body>', implode($scripts) . '</body>', $notScriptsTemplate);
+				echo $layoutFile;
 			} else {
 				throw new \Exception("Не найден {$this->layout}", 500);
 			}
@@ -60,4 +73,15 @@ class View
 		$head .= '<meta name="description" content= "' . $this->meta['desc'] . '">' . PHP_EOL;
 		return $head;
 	}
+
+	protected function cutScript($content)
+	{
+		$pattern = "#<script.*?>.*?</script>#is";
+		preg_match_all($pattern, $content, $this->scripts);
+		if (!empty($this->scripts)) {
+			$content = preg_replace($pattern, '', $content);
+		}
+		return $content;
+	}
+
 }
