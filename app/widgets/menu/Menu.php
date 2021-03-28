@@ -56,7 +56,15 @@ class Menu
 
 	protected function output()
 	{
-		echo "<{$this->container}>";
+		$attrs = '';
+		if(!empty($this->attrs)){
+			foreach ($this->attrs as $k => $v){
+				$attrs .=" $k='$v' ";
+			}
+		}
+
+		echo "<{$this->container} class='{$this->class}' $attrs>";
+		echo $this->prepend;
 		echo $this->menuHtml;
 		echo "</{$this->container}>";
 	}

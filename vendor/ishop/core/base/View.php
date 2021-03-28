@@ -45,21 +45,8 @@ class View
 
 		if (false !== $this->layout) {
 			$layoutFile = APP . "/views/layouts/{$this->layout}.php";
-
 			if (is_file($layoutFile)) {
-				ob_start();
 				require_once $layoutFile;
-				$scriptsTemplate = ob_get_clean();
-				$scripts = [];
-				$notScriptsTemplate = $this->cutScript($scriptsTemplate);
-				$scripts = $this->scripts[0];
-
-				if (!empty($this->scripts[0])) {
-					$scripts = $this->scripts[0];
-				}
-				$scripts = str_replace('</script>', '</script>' . PHP_EOL, $scripts);
-				$layoutFile = str_replace('</body>', implode($scripts) . '</body>', $notScriptsTemplate);
-				echo $layoutFile;
 			} else {
 				throw new \Exception("Не найден {$this->layout}", 500);
 			}

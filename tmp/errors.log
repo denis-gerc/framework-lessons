@@ -310,3 +310,45 @@
 ==============
 [2021-02-28 16:13:09] Текст ошибки: Call to undefined method ishop\base\View::getScripts() | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\base\View.php | Строка: 59 
 ==============
+[2021-03-28 12:56:49] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 12:57:02] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 12:57:05] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:11:23] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:16:07] Текст ошибки: Контроллер app\controllers\ProductController не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 41 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:21:37] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2021-03-28 17:33:28] Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 194 
+==============
+[2021-03-28 17:33:54] Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 194 
+==============
+[2021-03-28 17:34:35] Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 194 
+==============
+[2021-03-28 17:34:49] Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework-lessons\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 194 
+==============
+[2021-03-28 17:42:19] Текст ошибки: Продукт не найден | Файл: D:\OpenServer\domains\framework-lessons\app\controllers\ProductController.php | Строка: 13 
+==============
+[2021-03-28 17:52:30] Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework-lessons\app\controllers\ProductController.php | Строка: 13 
+==============
